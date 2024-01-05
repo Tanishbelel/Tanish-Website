@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h2 class="h2 article-title">Portfolio</h2>
+      </header>
+
+      <section class="projects">
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web design</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Applications</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web development</button>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="finhub.png" alt="finance" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Finance - Finhub</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="linkedin work.png" alt="orizon" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Art galllery</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web design">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="os6.png" alt="fundo" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">login page</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+        </ul>
+
+      </section>
+
+    </article>
+    <div class="github"> <p>To checkout websites visit my GitHub - 
+     </p>
+     <a href="https://github.com/Tanishbelel"> https://github.com/Tanishbelel</a>
+    </div>
+</body>
+</html>
